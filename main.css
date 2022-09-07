@@ -6,8 +6,7 @@ body {
   background-color: #eee;
 }
 .oops{
-  display: flex;
-  position: absolute;
+  position: fixed;
   bottom: 80px;
 }
 .hide{
