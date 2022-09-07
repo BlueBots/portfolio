@@ -10,6 +10,9 @@ body {
   position: absolute;
   bottom: 80px;
 }
+.hide{
+  visibility: hidden;
+}
 .content {
   display: flex;
   justify-content: center;
