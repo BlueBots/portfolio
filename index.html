@@ -12,9 +12,15 @@
 
     <div class="loader-wrapper">
       <span class="loader"><span class="loader-inner"></span></span>
-              <div class="oops">
+              <div class="oops hide" id="2">
           <b> Loading taking too long? <a href="https://brandonpeterson07.weebly.com/" target="_blank">Click Here</a></b>
-      </div>
+    </div>
+      <script type="text/javascript">
+
+setTimeout(function() {
+document.getElementById('2').classList.remove('hide');
+}, 4000);
+      </script>
     </div>
 
     <script>
