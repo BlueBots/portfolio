@@ -5,6 +5,11 @@ body {
   height: 100vh;
   background-color: #eee;
 }
+.oops{
+  display: flex;
+  position: absolute;
+  bottom: 80px;
+}
 .content {
   display: flex;
   justify-content: center;
